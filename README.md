@@ -13,13 +13,22 @@ witter Sentiment Analysis - NLP
 Welcome to the Twitter Sentiment Analysis project! This application utilizes Natural Language Processing (NLP) techniques to analyze and classify the sentiment of tweets as positive or negative. It leverages machine learning models to achieve high accuracy and provides insights into the general sentiment trends on Twitter.
 
 Features
-Sentiment Classification: Classifies tweets into positive or negative sentiments.
 
-Data Preprocessing: Includes text cleaning, tokenization, and vectorization.
+Sentiment Classification: 
 
-Model Training: Trains a logistic regression model using scikit-learn.
+Classifies tweets into positive or negative sentiments.
 
-Performance Visualization: Uses graphs and plots to analyze results and model accuracy.
+Data Preprocessing: 
+
+Includes text cleaning, tokenization, and vectorization.
+
+Model Training: 
+
+Trains a logistic regression model using scikit-learn.
+
+Performance Visualization: 
+
+Uses graphs and plots to analyze results and model accuracy.
 
 Libraries Used
 pandas – For data manipulation and analysis.
@@ -31,21 +40,30 @@ seaborn – For enhanced statistical graphics.
 scikit-learn – For machine learning algorithms and model evaluation.
 
 Algorithm Used
-Logistic Regression: A supervised learning algorithm used for binary classification.
+Logistic Regression: 
+
+A supervised learning algorithm used for binary classification.
 
 Best Model Accuracy
+
 ✅ 95.00% (Achieved using Logistic Regression)
 
 Installation
+
 Make sure you have Python 3 installed. You can download Python from python.org.
 
 Install the required libraries using pip:
 
 bash
+
 Copy
+
 Edit
+
 pip install pandas matplotlib seaborn scikit-learn
+
 How to Run the Project
+
 Clone or download the project repository.
 
 Navigate to the project directory.
@@ -53,10 +71,16 @@ Navigate to the project directory.
 Run the main Python script:
 
 bash
+
 Copy
+
+
 Edit
+
 python sentiment_analysis.py
+
 How It Works
+
 Load and preprocess the tweet dataset.
 
 Vectorize the cleaned text using TF-IDF or CountVectorizer.
